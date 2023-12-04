@@ -246,5 +246,17 @@ git branch -r 查看远程分支
 git branch -a 查看本地和远程所有分支
 
 git checkout java 切换分支
+
+git add [文件名] 将新文件添加到暂存区
+
+git commit -m "初始化项目" 将缓存区内容添加到本地仓库中
+
+git status 命令可以用来查看相关文件的状态
+
+git remote 命令可以查看当前有哪些远程仓库
+
+git push [仓库名] [远程分支] 命令用于推送你的新分支与数据到某个远端仓库命令
+
+git pull [仓库名] [远程分支] 命令用于从另一个存储库或本地分支获取并集成(整合)
 ```
 
